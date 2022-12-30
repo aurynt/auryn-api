@@ -27,16 +27,17 @@ class Student extends BaseController
     public function delete($id)
     {
         $this->db->delete($id);
-        return redirect()->to('student');
+        return redirect()->to('/student');
     }
     public function create()
     {
         $this->db->save($this->request->getVar());
-        return redirect()->to('student');
+        return redirect()->to('/student');
     }
-    public function update()
+    public function edit()
     {
         $this->db->save($this->request->getVar());
-        return redirect()->to('student');
+
+        return redirect()->to('/student');
     }
 }

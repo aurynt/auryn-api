@@ -44,7 +44,7 @@ $routes->get('/student/(:num)', 'Student::detail/$1');
 $routes->post('/student/register', 'Student::create');
 
 //PUT
-$routes->put('/student/update', 'Student::update');
+$routes->put('/student/update', 'Student::edit');
 
 //DELETE
 $routes->delete('/student/delete/(:num)', 'Student::delete/$1');
