@@ -12,4 +12,4 @@
         <a href="mailto:auryncode@gmail.com">Email</a>
     </li>
 </ul>
-<center><p><i>copyright @Auryncode</i></p></center>
+<p><i>copyright © Auryncode</i></p>
